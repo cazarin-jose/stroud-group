@@ -1,0 +1,299 @@
+/*
+  Theme Name:   Route Child
+  Theme URI:    http://routewp.com/
+  Author:       Codestar
+  Author URI:   http://themeforest.net/user/Codestar
+  Description:  Route Multi-Purpose WordPress Theme by a Elite Author
+  Version:      7.0
+  License:      GNU General Public License v2 or later
+  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+  Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+  Text Domain:  route
+  Template:     route
+*/
+@font-face {font-family: "Proxima Nova"; src: url("Fonts/bf9f5d50c1b928ff21436517a1a95ad9.eot"); src: url("Fonts/bf9f5d50c1b928ff21436517a1a95ad9.eot?#iefix") format("embedded-opentype"), url("Fonts/bf9f5d50c1b928ff21436517a1a95ad9.woff2") format("woff2"), url("Fonts/bf9f5d50c1b928ff21436517a1a95ad9.woff") format("woff"), url("Fonts/bf9f5d50c1b928ff21436517a1a95ad9.ttf") format("truetype"), url("Fonts/bf9f5d50c1b928ff21436517a1a95ad9.svg#Proxima Nova") format("svg"); }   
+@font-face {font-family: "Proxima Nova Bold"; src: url("Fonts/72b6f2c9990bd3d37b8013a59ed78902.eot"); src: url("Fonts/72b6f2c9990bd3d37b8013a59ed78902.eot?#iefix") format("embedded-opentype"), url("Fonts/72b6f2c9990bd3d37b8013a59ed78902.woff2") format("woff2"), url("Fonts/72b6f2c9990bd3d37b8013a59ed78902.woff") format("woff"), url("Fonts/72b6f2c9990bd3d37b8013a59ed78902.ttf") format("truetype"), url("Fonts/72b6f2c9990bd3d37b8013a59ed78902.svg#Proxima Nova") format("svg"); }
+@font-face {font-family: "Proxima Nova Semi Bold"; src: url("Fonts/5243e362912f7119ede836ab03f23ac7.eot"); src: url("Fonts/5243e362912f7119ede836ab03f23ac7.eot?#iefix") format("embedded-opentype"), url("Fonts/5243e362912f7119ede836ab03f23ac7.woff2") format("woff2"), url("Fonts/5243e362912f7119ede836ab03f23ac7.woff") format("woff"), url("Fonts/5243e362912f7119ede836ab03f23ac7.ttf") format("truetype"), url("Fonts/5243e362912f7119ede836ab03f23ac7.svg#Proxima Nova") format("svg"); } 
+body.page,#site-nav ul li ul li .cs-link {
+	font-family: 'Proxima Nova' !important;
+}
+h1,h2,h3,h4,h5,h6,em{
+	font-style:normal !important;
+	/* 	important has given to remove css from index:158 */
+}
+
+.cs-btn,.cs-btn.cs-btn-flat-accent,.cs-btn:hover,.cs-btn.cs-btn-flat-accent:hover{
+	
+	background-color: #e31d38;
+    color: #ffffff;
+    border-color: #e31d38;
+}
+.cta-btn-section{
+	 background-color: #f8f8f6;
+     padding:60px 0;
+}
+/* .cta-btn{
+	
+	 padding-left: 33px;
+} */
+/* .cta-btn:before{
+	content: "";
+    background-image: url(https://www.stroudgroup.com/new/wp-content/uploads/2022/08/CTA-icon.png);
+    width: 47%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 34%;
+    left: 5px;
+} */
+
+.leads-to-other-main{
+	margin-top: 50px;
+	background-color: #f8f8f6;
+    padding:30px 0;
+}
+
+.our-team .curver_image img{
+	    max-width: 70%;
+}
+.our-team .curver_image:before{
+	    width: 57%;
+	    left: 21%;
+}
+   
+.leads-to-other-main .main-menu-img img {
+    max-width: 50%;
+}
+
+.main-menu-img h4 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.why-stroud-intro{
+	margin: 20px 0;
+}
+
+.why-stroud-intro h4,.why-stroud-intro p{
+	color: #fff;
+}
+
+.why-stroud-intro {
+	background-size:100%;
+}
+
+.why-stroud-left {
+	padding: 40px 0;
+}
+
+.why-stroud-intro img{
+	margin-top: -7px;
+	margin-bottom: -43px;
+}
+
+.why-stroud-left h4{
+	font-size: 25px;
+}
+
+.logo-in-white img{
+	position: absolute;
+    top: 30px;
+    left: -120px;
+}
+
+.our-team .description{
+	min-height:255px;
+}
+.our-team.our-stroud-team .description{
+	min-height:175px;
+}
+
+#colophon h4 {
+    font-size: 30px !important;
+/* 	important has given to remove style from line 158 */
+}
+
+.executive-cta-icon .cs-icon {
+    transform: rotate(90deg);
+    font-size: 28px;
+}
+
+#linkedin_link {
+	background-image:url("https://www.stroudgroup.com/new/wp-content/uploads/2022/04/linkedin_connect_icon-1.png");
+    background-repeat: no-repeat;
+/* 	text-indent: -999999px; */
+/* 	display:inherit; */
+	min-height: 50px;
+}
+#facebook_link {
+	background-image:url("https://www.stroudgroup.com/new/wp-content/uploads/2022/04/facebook_connect_icon-1.png");
+    background-repeat: no-repeat;
+/* 	text-indent: -999999px; */
+/* 	display:inherit; */
+	min-height: 50px;
+}
+
+#instagram_link {
+	background-image:url("https://www.stroudgroup.com/new/wp-content/uploads/2022/09/instaIcon.png");
+    background-repeat: no-repeat;
+/* 	text-indent: -999999px; */
+/* 	display:inherit; */
+	min-height: 50px;
+}
+
+.social-media-links a{
+	display: flex;
+    text-indent: -999999px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.facebook, .linked-in{
+	width: 20%;
+    float: left;
+}
+
+.page .vc_btn3.vc_btn3-color-juicy-pink, .page .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat,.page .vc_btn3.vc_btn3-color-juicy-pink:hover,.page .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat:hover{
+	background-color: #e31d38;
+    color: #ffffff;
+    border-color: #e31d38;
+}
+
+/* 2022-12-09 */
+.stroud_certificates .wpb_single_image {
+    min-height: 374px;
+}
+
+.webnc_certificate .wpb_single_image{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stroud_prop .prop_slider .rsArrowLeft{
+	right:unset;
+	top: 47%;
+}
+
+.stroud_prop .prop_slider .rsArrowRight{
+	top: 47%;	
+    right: 0;
+
+}
+
+.stroud_prop .prop_slider .rsBullets{
+/* 	right:130px; */
+	display:none;
+}
+/* 2022-12-09 */
+
+/* 2022-14-09 */
+
+.siblings-why-stroud .wpb_single_image img{
+	width: 75px;
+    height: 75px;
+    max-width: 100%;
+}
+.leads-to-other-main:not(.leads-to-other-main.siblings-why-stroud) {
+    background-color: #f8f8f6;
+}
+/* .why-stroud-video-title {
+    background: #f8f8f6;
+    padding: 20px;
+} */
+.leads-to-other-main.about-child{
+	background-color: #f8f8f6;
+}
+.below-social-blog{
+	
+	left: 16px;
+    position: absolute;
+    padding: 2px 20px;
+    background-color: #e31d38;
+    color: #ffffff;
+    border-color: #e31d38;
+    border-radius: 0.2em;
+}
+.below-social-contact{
+	position: absolute;
+    padding: 2px 20px;
+    background-color: #e31d38;
+    color: #ffffff;
+    border-color: #e31d38;
+    border-radius: 0.2em;
+    margin-top: 20px;
+    text-align: center;
+
+}
+/* 2022-14-09 */
+
+/* 2022-15-09 */
+.post li::marker {
+    font-size: 24px;
+    font-weight: 600;
+}
+.cs-header-fancy #masthead.is-compact #site-logo img {
+  max-height: 72%;
+  vertical-align: top;
+  padding: 0px 55px;
+}
+#masthead.is-compact #site-nav .current-menu-ancestor > .cs-link, 
+#masthead.is-compact #site-nav .current-menu-item > .cs-link, 
+#masthead.is-compact #site-nav > ul > li > .cs-link:hover {
+  color: #e31d38;
+}
+#masthead.is-compact #site-nav > ul > li > .cs-link {
+  color: #fff;
+}
+.cs-header-fancy #masthead.is-compact {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+#masthead.is-compact .cs-sticky-item {
+  line-height: 90px !important;
+  height: 90px !important;
+}
+#masthead.is-compact #site-nav ul li ul {
+
+  top: 154%;
+
+}
+#masthead.is-compact #site-header-shadow::after {
+  
+  -webkit-box-shadow: 0 1px 4px rgba(249, 249, 249, 0.1);
+  box-shadow: 0 1px 4px rgba(249, 249, 249, 0.1);
+}
+
+/* 2022-15-09 */
+
+/* 2022-09-23 */
+.stroud_certificates .wpb_single_image{
+  min-height : unset;
+}
+
+.certificates-entrepren h2{
+   min-height:66px;
+}
+
+.hi_connect .wpb_single_image {
+    min-height: 237px;
+}
+
+.sep_line_logo img {
+    height: auto;
+    width: 205px;
+}
+
+.sep_line .sep_line_right {
+    top: 88px;
+    left: -154px;
+    width: 210px;
+}
+
+.sep_line .sep_line_left {
+    top: 88px;
+    right: -170px;
+    width: 210px;
+    left: unset;
+}
+/* 2022-09-23 */
